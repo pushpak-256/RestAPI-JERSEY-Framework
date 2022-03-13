@@ -5,6 +5,7 @@ import jakarta.xml.bind.annotation.XmlRootElement;
 @XmlRootElement
 public class Alien {
 
+	private int id;
 	private String name;
 	private int points;
 	
@@ -19,6 +20,17 @@ public class Alien {
 	}
 	public void setPoints(int points) {
 		this.points = points;
+	}
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	
+	@Override
+	public String toString() {
+		return "Alien [id=" + id + ", name=" + name + ", points=" + points + "]";
 	}
 	
 }
