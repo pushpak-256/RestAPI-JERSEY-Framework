@@ -11,6 +11,7 @@
 - project properties > target runtime > select server (to get rid of errors)
 
 
-
+<!--
 ```diff
 - NOTE : Ive skipped adding Hibernate dependencies in pom.xml
+-->
